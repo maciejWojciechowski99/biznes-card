@@ -1,0 +1,34 @@
+body{
+  background: #2C2141;
+}
+
+.about{
+  position: absolute;
+  width: 624px;
+  height: 320px;
+  background: #F8F8F8;
+  border-radius: 16px;
+  box-sizing: border-box;
+  padding: 16px;
+  
+}
+
+.header__me{
+  font-family: Arial;
+  text-align: center;
+}
+
+.photo{
+  ;
+}
+
+.information{
+ text-align: right;
+ max-width: 100px;
+}
+
+.main{
+max-width: 1000px;
+margin-left:30%;
+margin-top:15%;
+}
