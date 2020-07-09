@@ -1,34 +1,61 @@
-body{
-  background: #2C2141;
+*, *:after, *::before{
+  box-sizing: border-box;
 }
 
-.about{
-  position: absolute;
-  width: 624px;
-  height: 320px;
+body{
+  background: #2C2141;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  }
+
+.main{
   background: #F8F8F8;
   border-radius: 16px;
-  box-sizing: border-box;
-  padding: 16px;
+  padding:15px;
+  width: 624px;
+  display: flex;
   
 }
 
-.header__me{
-  font-family: Arial;
-  text-align: center;
+.header__person{
+  font-family: Arial, Helvetica;
+  font-weight: normal;
+  margin: 0px;
+  font-size: 36px;
 }
 
-.photo{
-  ;
+.main__description{
+ font-family: Arial, Helvetica;
+ font-size: 16px;
 }
 
-.information{
- text-align: right;
- max-width: 100px;
+
+.header__job{
+  color: #545454;
+  margin-top: 0px;
+  font-family: Arial, italic;
 }
 
-.main{
-max-width: 1000px;
-margin-left:30%;
-margin-top:15%;
+.link{
+  text-decoration: none;
+  color: red;
+}
+
+.special{
+  color: orange;
+  font-weight: normal;
+}
+
+.avatar{
+  align-self: baseline;
+  max-height: 200px;
+  min-width: 150px;
+  border-radius: 15%;
+
+}
+
+.container{
+  margin:32px;
 }
